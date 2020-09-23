@@ -1,4 +1,4 @@
-package solution.myAtoi.java;
+package solution.myAtoi;
 
 public class CheckAnswer {
 

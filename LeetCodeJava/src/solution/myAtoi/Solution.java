@@ -1,4 +1,4 @@
-package solution.myAtoi.java;
+package solution.myAtoi;
 
 import java.math.BigInteger;
 import java.util.HashMap;
@@ -33,7 +33,7 @@ public class Solution {
         return Integer.valueOf(strNumber).intValue();
     }
 
-    // try-catch
+    // reference answer 1: try-catch
     public int myAtoiRegex1(String str) {
         // remove space
         str = str.trim();
@@ -52,7 +52,7 @@ public class Solution {
         return value;
     }
 
-    // Biginteger
+    // reference answer 2: Biginteger
     public int myAtoiRegex2(String str) {
         String pattern = "^\\s*([+-]?\\d+)";
         Pattern r = Pattern.compile(pattern);
@@ -71,7 +71,7 @@ public class Solution {
 
     }
 
-    // Automaton
+    // reference answer 3: Automaton
     public int myAtoiAutomaton(String str) {
         Automaton automaton = new Automaton();
         int length = str.length();
