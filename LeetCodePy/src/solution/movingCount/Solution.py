@@ -1,6 +1,8 @@
-# https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/
-# 2020.04.08
-
+'''
+https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/
+Created on 2020年4月8日
+@author: zwieb
+'''
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         count = 0

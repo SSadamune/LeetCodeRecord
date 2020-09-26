@@ -3,7 +3,7 @@ Created on 2020年9月25日
 
 @author: zwieb
 '''
-import Solution
+from solution.threeSum.Solution import Solution
 
 s = Solution()
 
@@ -15,5 +15,5 @@ inputlist = [
 ]
 
 for input in inputlist:
-    print(Solution(input))
+    print(s.threeSum(input))
 
