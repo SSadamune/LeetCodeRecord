@@ -10,7 +10,7 @@ class Solution:
         n = len(nums)
 
         for index1 in range(n):
-            if index1 > 0 and  nums[index1] == nums[index1 - 1]: continue
+            if index1 > 0 and nums[index1] == nums[index1 - 1]: continue
             target = -nums[index1]
             index2, index3 = index1 + 1, n - 1
 

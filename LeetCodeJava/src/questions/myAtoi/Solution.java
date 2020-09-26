@@ -1,4 +1,4 @@
-package solution.myAtoi;
+package questions.myAtoi;
 
 import java.math.BigInteger;
 import java.util.HashMap;

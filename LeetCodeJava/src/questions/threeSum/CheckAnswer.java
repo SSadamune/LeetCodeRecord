@@ -1,4 +1,4 @@
-package solution.threeSum;
+package questions.threeSum;
 
 public class CheckAnswer {
 

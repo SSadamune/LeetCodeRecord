@@ -1,4 +1,4 @@
-package solution.threeSum;
+package questions.threeSum;
 
 import java.util.ArrayList;
 import java.util.Arrays;
