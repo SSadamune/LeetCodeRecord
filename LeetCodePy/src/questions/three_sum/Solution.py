@@ -4,7 +4,7 @@ Created on 2020年9月26日
 @author: zwieb
 '''
 class Solution:
-    def threeSum(self, nums):
+    def three_sum(self, nums):
         nums.sort()
         ans = list()
         n = len(nums)

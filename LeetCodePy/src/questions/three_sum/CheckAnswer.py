@@ -3,7 +3,7 @@ Created on 2020年9月25日
 
 @author: zwieb
 '''
-from questions.threeSum.Solution import Solution
+from questions.three_sum.Solution import Solution
 
 s = Solution()
 
