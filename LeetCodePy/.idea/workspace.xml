@@ -7,6 +7,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -63,6 +70,7 @@
       <updated>1601089953400</updated>
       <workItem from="1601089972586" duration="1536000" />
       <workItem from="1601096063511" duration="3442000" />
+      <workItem from="1601384060817" duration="1479000" />
     </task>
     <servers />
   </component>
@@ -99,10 +107,10 @@
     </state>
     <state x="247" y="167" width="1141" height="883" key="SettingsEditor/0.0.1608.1050/-1920.-19.1858.1080@0.0.1608.1050" timestamp="1601098668302" />
     <state x="453" y="71" key="SettingsEditor/0.0.1608.1050@0.0.1608.1050" timestamp="1601091030885" />
-    <state x="421" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1601096099101">
+    <state x="421" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1601384093006">
       <screen x="0" y="0" width="1608" height="1050" />
     </state>
-    <state x="421" y="307" key="com.intellij.ide.util.TipDialog/0.0.1608.1050/-1920.-19.1858.1080@0.0.1608.1050" timestamp="1601096099101" />
+    <state x="421" y="307" key="com.intellij.ide.util.TipDialog/0.0.1608.1050/-1920.-19.1858.1080@0.0.1608.1050" timestamp="1601384093006" />
     <state x="418" y="34" width="771" height="981" key="find.popup" timestamp="1601091050104">
       <screen x="0" y="0" width="1608" height="1050" />
     </state>

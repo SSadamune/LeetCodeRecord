@@ -82,11 +82,14 @@ class Solution {
         }
     }
 
-    public List<String> generateParenthesis(int n) {
+    public List<String> generateParenthesisDp(int n) {
         if (n == 0) {
             return new ArrayList<>();
         }
-        // 这里 dp 数组我们把它变成列表的样子，方便调用而已
+        /**
+         * change the dp array to a list
+         * dp.get(i) is the answer when n is i
+         */
         List<List<String>> dp = new ArrayList<>(n);
 
         List<String> dp0 = new ArrayList<>();
