@@ -3,6 +3,8 @@ https://leetcode.com/problems/3sum/
 Created on 2020年9月26日
 @author: zwieb
 '''
+
+
 class Solution:
     def three_sum(self, nums):
         nums.sort()
@@ -14,7 +16,7 @@ class Solution:
             target = -nums[index1]
             index2, index3 = index1 + 1, n - 1
 
-            while (index2 < index3):
+            while index2 < index3:
                 # print('index : ' + repr(index2) + ' and ' + repr(index3))
                 if nums[index2] + nums[index3] < target or (index2 > index1 + 1 and nums[index2] == nums[index2 - 1]):
                     index2 += 1
@@ -28,7 +30,6 @@ class Solution:
                 index2 += 1
 
         return ans
-
 
     # Reference answer
     def threeSumRA(self, nums):

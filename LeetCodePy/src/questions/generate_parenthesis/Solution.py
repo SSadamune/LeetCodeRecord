@@ -3,6 +3,8 @@ https://leetcode.com/problems/generate-parentheses/
 Created on 2020.09.29
 @author: zwieb
 '''
+
+
 class Solution:
     def generate_parenthesis(self, n):
         ans = []

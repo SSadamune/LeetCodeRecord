@@ -7,13 +7,13 @@ from questions.three_sum.Solution import Solution
 
 s = Solution()
 
-inputlist = [
+input_list = [
     [-1, 0, 1, 2, -1, -4],
     [0, 0, 0, 0, 0, 0, 0, 0, 0],
     [-1, -1, -1, -1, 0, 1, 1, 1, 1],
     [1, 1, 1],
 ]
 
-for input in inputlist:
+for input in input_list:
     print(s.threeSum(input))
 
